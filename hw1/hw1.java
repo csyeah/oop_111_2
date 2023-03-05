@@ -85,8 +85,10 @@ public class hw1 {
                         break loops;
                     else if (opt == 'N' || opt == 'n')
                         System.exit(0);//end the program
-                    else
+                    else {
+                        System.out.println("enter Y/y or N/n");
                         continue loops;
+                    }
                 }
         }
     }
