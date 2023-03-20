@@ -15,6 +15,8 @@ int main(int argc, char *argv[])
         exit(2);
     }
     //
-    std::cout << "yeah" << std::endl;
+    char buffer[20];
+    in >> buffer;
+    std::cout << buffer << std::endl;
     return 0;
 }
