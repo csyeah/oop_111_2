@@ -7,17 +7,17 @@
 //1 fish per 1000 feet^3 (lake depth 20feet)
 //1/4 fish left
 const int LINE_LENGTH = 50;
-void split_array(int coordinate[10], char buf[LINE_LENGTH])//do strtok
+int split_array(int coordinate[10], char buf[LINE_LENGTH], int index_of_coordinate)//do strtok
 {
     char *token;
     token = strtok(buf, " ");
 
-    int count = 0;
     while (token != NULL)
     {   
-        coordinate[count++] = atoi(token);
+        coordinate[index_of_coordinate++] = atoi(token);
         token = strtok(NULL, " ");
     }
+    return index_of_coordinate;
 }
 int main(int argc, char *argv[])
 {
@@ -45,14 +45,20 @@ int main(int argc, char *argv[])
     
     
     
-    int coordinate[9];
-    for (int i = 0; i < count_line; i++)
-    {
-        split_array(coordinate, data[i]);
-    }
+    int coordinate[9], index_of_coordinate = 0;
+    for (int i = 0; i < count_line; i++)//convert string into int line by line 
+        index_of_coordinate = split_array(coordinate, data[i], index_of_coordinate);
     
-    //check count
-    std::cout << "after strtok" << std::endl;
+    if (index_of_coordinate != 9)//check if there is 9 input coordinate
+        std::cout << "error, wrong number of coordinate" << std::endl;
+    
+    for (int i = 0; i < index_of_coordinate; i++)
+        std::cout << coordinate[i] << " ";
+    
+    std::cout << std::endl;
+    
+
+   
     
     
     return 0;
