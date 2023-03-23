@@ -8,7 +8,7 @@
 //1 fish per 1000 feet^3 (lake depth 20feet)
 //1/4 fish left
 const int LINE_LENGTH = 50;
-//calculate the time program used
+//calculate program execurion time
 struct timespec diff(struct timespec start, struct timespec end)
 {
     struct timespec tmp;

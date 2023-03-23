@@ -1,0 +1,27 @@
+[作業要求]
+請由 C++ (建議) / Java / Python 任一種語言撰寫，若使用C++及Java請提供makefile
+依照題目要求寫出 Triangle class，c++ 需包含 triangle.h 和 triangle.cpp
+並且若以作業投影片提供的driver.cpp (p.11 - p.15) 測試必須產生正確結果 (請參考p.17、p.18)
+助教批改時會使用自己的driver，基本上會跟投影片的差不多，但是可能會有額外的測試
+同學可不提供driver.cpp，但仍要提供makefile，且注意名稱應統一為：triangle.h、triangle.cpp、driver.cpp，以方便助教批改
+
+(I)主要功能 (90%)：
+
+依照題目要求寫出以下member functions:
+constructor (10%)
+GetSize、Perimeter、Area (15%)
+Grow、Shrink (20%)
+SetBorder、SetFill (20%)
+Draw (20%)
+Summary (5%)
+(II)Bonus：
+整體 coding style(10%)
+若有其他的創意發想，想增加額外的function可以列出並說明，可能有額外加分機會
+[注意事項]
+Triangle class的member variable都應宣告為private
+C++的部分必須完全使用C++的語法，非必要不應混用C語言。
+若有特殊理由需使用到C語言可於readme說明，否則助教會斟酌扣分
+繳交期限：3/30 (Thu) 23:59
+
+※對作業有疑問可新增一篇主題發問~
+※你的疑問也可能是其他同學的疑問!
