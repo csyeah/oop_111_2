@@ -23,7 +23,7 @@ void Triangle::Draw()
     {
         if (i <= 1)//first two line
         {
-            for (int j = 0; j < length - i; j++)
+            for (int j = 0; j < length - i; j++)//fill with space
                 std::cout << " ";
             for (int j = 0; j < i+1; j++)
                 std::cout << border_char << " " ;
@@ -39,7 +39,7 @@ void Triangle::Draw()
         }
         else
         {
-            for (int j = 0; j < length - i; j++)
+            for (int j = 0; j < length - i; j++)//fill with space
                 std::cout << " ";
             std::cout << border_char << " ";
             for (int j = 1; j < i; j++)
@@ -78,7 +78,7 @@ void Triangle::Summary()
 {
     std::cout << "Size of traingle's side = " << length << " units.\n";
     std::cout << "Perimeter of traingle = " << Perimeter() << " units\n";
-    std::cout << "Area of triangle = " << std::fixed <<std::setprecision(2) << Area() << " square units.\n";
+    std::cout << "Area of triangle = " << std::fixed << std::setprecision(2) << Area() << " square units.\n";
     std::cout << "Triangle looks like:\n";
     Draw();
 }
