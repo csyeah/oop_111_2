@@ -2,7 +2,7 @@
 // the Triangle class
 #include <iostream>
 #include <iomanip>
-#include "triangle.h“
+#include "triangle.h"
 using namespace std;
 int main()
 {

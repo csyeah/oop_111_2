@@ -2,25 +2,27 @@
 #define TRIANGLE_H
 
 #include<iostream>
+#include<cmath>
+#include<iomanip>
 class Triangle
 {
 private:
-    const int length;
+    int length;
     char border_char;
     char fill_char;
 public:
     Triangle(int input, char bor = '#', char fil = '*'):
         length(input > 39 ? 39: input < 1 ? 1: input), border_char(bor), fill_char(fil) {}
     int GetSize();
-    int perimeter();
-    int Area();
+    int Perimeter();
+    double Area();
     void Draw();
     void Grow();
     void Shrink();
-    void Setborder();
-    void Setfill();
+    void SetBorder(char ch);
+    void SetFill(char ch);
     void Summary();
-    ~Triangle();
+    ~Triangle(){}
 };
 
 #endif
