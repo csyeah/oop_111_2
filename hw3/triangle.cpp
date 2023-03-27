@@ -38,5 +38,11 @@ void Triangle::Draw()
 }
 void Triangle::Grow()
 {
-
+    if (length < 39)
+        length++;
+}
+void Triangle::Shrink()
+{
+    if (length > 1)
+        length--;
 }
