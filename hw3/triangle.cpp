@@ -1,17 +1,42 @@
 #include"triangle.h"
-class Triangle
+int Triangle::GetSize()
 {
-private:
-    /* data */
-public:
-    Triangle(/* args */);
-    ~Triangle();
-};
-
-Triangle::Triangle(/* args */)
-{
+    return length;
 }
-
-Triangle::~Triangle()
+int Triangle::perimeter()
 {
+    
+    return length * 3;
+}
+int Triangle::Area()
+{
+    const double height = pow(length, 1/3);
+    const int ans = (length * height) / 2 ;
+    return ans;
+}
+void Triangle::Draw()
+{
+    for (int i = 0; i < length; i++)//triangle has length level
+    {
+        if (i <= 1)//first two line
+            for (int j = 0; j < i+1; j++)
+                std::cout << border_char;
+        
+        else if (i == length - 1)//last line
+            for (int j = 0; j < i+1; j++)
+                std::cout << border_char;
+        
+        else
+        {
+            std::cout << border_char;
+            for (int j = 1; j < i; j++)
+                std::cout << fill_char;
+            std::cout << border_char;
+        }
+    }
+    
+}
+void Triangle::Grow()
+{
+
 }

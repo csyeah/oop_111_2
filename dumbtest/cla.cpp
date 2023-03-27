@@ -7,7 +7,7 @@ private:
     const char ch;
 public:
     Cla(int in, char inc = '@'):
-        num(in), ch(inc){}
+        num(in > 39 ? 39: in < 1 ? 1: in), ch(inc){}
     void print();
     ~Cla()
     {
@@ -21,7 +21,7 @@ void Cla::print()
 }
 int main(void)
 {
-    Cla test(10, '#');
+    Cla test(0, '#');
     Cla test2(111);
     test.print();
     test2.print();
