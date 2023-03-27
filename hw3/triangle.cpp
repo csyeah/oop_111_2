@@ -8,10 +8,10 @@ int Triangle::perimeter()
     
     return length * 3;
 }
-int Triangle::Area()
+double Triangle::Area()
 {
     const double height = pow(length, 1/3);
-    const int ans = (length * height) / 2 ;
+    const double ans = (length * height) / 2 ;
     return ans;
 }
 void Triangle::Draw()
@@ -45,4 +45,12 @@ void Triangle::Shrink()
 {
     if (length > 1)
         length--;
+}
+void Triangle::Setborder()
+{
+
+}
+void Triangle::Setfill()
+{
+
 }
