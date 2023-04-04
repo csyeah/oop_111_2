@@ -23,7 +23,7 @@ void Triangle::Draw()
     {
         if (i <= 1)//first two line
         {
-            for (int j = 0; j < length - i; j++)//fill with space
+            for (int j = 0; j < length - i - 1; j++)//fill with space
                 std::cout << " ";
             for (int j = 0; j < i+1; j++)
                 std::cout << border_char << " " ;
@@ -31,7 +31,7 @@ void Triangle::Draw()
         }
         else if (i == length - 1)//last line
         {
-            for (int j = 0; j < length - i; j++)
+            for (int j = 0; j < length - i - 1; j++)
                 std::cout << " ";
             for (int j = 0; j < i+1; j++)
                 std::cout << border_char << " ";
@@ -39,7 +39,7 @@ void Triangle::Draw()
         }
         else
         {
-            for (int j = 0; j < length - i; j++)//fill with space
+            for (int j = 0; j < length - i - 1; j++)//fill with space
                 std::cout << " ";
             std::cout << border_char << " ";
             for (int j = 1; j < i; j++)

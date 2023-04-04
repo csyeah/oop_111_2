@@ -1,0 +1,48 @@
+[作業要求]
+此次作業限定以C++語言撰寫，並且需提供makefile
+makefile: 可同時編譯 (I) driver.cpp 成 a.out 和 (II) main.cpp 成 b.out
+
+(I) Part A、B (30%)
+依照題目要求寫出 Stack.h、Stack.cpp
+driver.cpp可選擇性提供，且注意名稱應統一為：Stack.h、Stack.cpp、driver.cpp，以方便助教批改
+
+由於B是A的進階版
+因此只需繳交一份，不用分PartA或B
+我們會用driver來判定你完成到什麼程度 (但也請在readme註明完成度)
+能處理int的版本(Part A) +20分
+若可以處理其他資料型態(Part B) +10分
+
+(II) Part C (60%)
+包含兩個Input files：accounts.txt、transactions.txt
+需撰寫4個檔案：account.h、account.cpp、bank.h、bank.cpp
+並利用我們提供的main.cpp測試(附件在下方)
+若有自己的main.cpp也可以選擇性附上，名稱也請統一
+
+測資格式(附件在下方):
+<accounts.txt>
+First National Bank
+1132264809 Joanna Madsen 2805.65
+5540853032 Trey Donner 4850.75
+...
+
+<transactions.txt>
+06/19 1111111111 D 430.00
+06/20 2468421538 W 1332.37
+...
+
+**************************************************************************************************
+請同學下載HW4.zip (內含accounts.txt、transactions.txt、main.cpp)
+輸出結果應符合作業投影片Sample Output p.33 - p.37
+HW4.zip
+(880 Bytes) 已下載 8 次
+**************************************************************************************************
+
+(III)Bonus (10%)：
+整體 coding style
+
+[注意事項]
+C++的部分必須完全使用C++的語法，非必要不應混用C語言。
+若有特殊理由需使用到C語言可於readme說明，否則助教會斟酌扣分
+data member不論是否為const，都應利用member initializer的方式來初始化，可參考上課投影片06-class p.11
+Part A、B不開放使用vector進行實作
+繳交期限：4/13 (Thu) 23:59
