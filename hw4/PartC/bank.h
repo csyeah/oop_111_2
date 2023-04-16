@@ -13,7 +13,9 @@ public:
     void print();
     void read_accounts(char *file_name);
     void process_transactions(char *file_name);
+    
     void bubble_sort();
+    int binary_search(char *target);
 };
 
 #endif
