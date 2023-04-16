@@ -1,16 +1,18 @@
 #ifndef BANK_H
 #define BANK_H
-
-class Bank
+#include "account.h"
+class Bank//:public Account
 {
 private:
-    /* data */
+    char bank_name[31];
+    Account account_objects[20];
+    int num_array;
 public:
     Bank(/* args */);
     ~Bank();
     void print();
-    void read_accounts(char file_name);
-    void process_transactions(char file_name);
+    void read_accounts(char *file_name);
+    void process_transactions(char *file_name);
 };
 
 
