@@ -2,7 +2,7 @@
 #include <cstdbool>
 #include <cstring>
 #include "account.h"
-#include "bank.h"
+
 Account::Account(/* args */):
     balance(0), name(""), account_number("") {}
 
@@ -40,6 +40,6 @@ void Account::print()//print data member
 void Account::set_account(char *tmp_account_number, char *tmp_name, double tmp_balance)
 {
     strcpy(account_number, tmp_account_number);
-    strcpy(name, tmp_account_number);
+    strcpy(name, tmp_name);
     balance = tmp_balance;
 }

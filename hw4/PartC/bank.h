@@ -1,19 +1,22 @@
 #ifndef BANK_H
 #define BANK_H
 #include "account.h"
-class Bank//:public Account
+
+typedef class Account ACC;
+class Bank
 {
 private:
     char bank_name[31];
-    Account account_objects[20];
+    ACC account_objects[20];
     int num_array;
 public:
+
     Bank(/* args */);
     ~Bank();
     void print();
-    void read_accounts(char *file_name);
-    void process_transactions(char *file_name);
-    
+    void read_accounts(const char *file_name);
+    void process_transactions(const char *file_name);
+    //new
     void bubble_sort();
     int binary_search(char *target);
 };

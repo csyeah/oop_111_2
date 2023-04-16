@@ -1,6 +1,5 @@
 #ifndef ACCOUNT_H
 #define ACCOUNT_H
-#include "bank.h"
 class Account
 {
 private:
@@ -19,7 +18,5 @@ public:
     //new
     void set_account(char *tmp_account_number, char *tmp_name, double tmp_balance);
 };
-
-
 
 #endif
