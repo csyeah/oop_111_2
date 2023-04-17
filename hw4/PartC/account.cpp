@@ -35,7 +35,7 @@ void Account::print()//print data member
 {
     std::cout << "\nAccount Number: " << account_number;
     std::cout << "\nName: " << name;
-    std::cout << "\nBalance: " << balance << std::endl;
+    std::cout << "\nBalance: $" << balance << std::endl;
 }
 void Account::set_account(char *tmp_account_number, char *tmp_name, double tmp_balance)
 {

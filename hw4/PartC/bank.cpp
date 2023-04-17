@@ -30,7 +30,7 @@ void Bank::read_accounts(const char *file_name)
         
         char tmp_account_number[11], tmp_name[21], last_name[21];
         double tmp_balance;
-        file_in >> tmp_account_number >> tmp_name >> last_name >>tmp_balance;
+        file_in >> tmp_account_number >> tmp_name >> last_name >> tmp_balance;
         strcat (tmp_name, " ");
         strcat (tmp_name, last_name);
         account_objects[num_array++].set_account(tmp_account_number, tmp_name, tmp_balance);
@@ -93,7 +93,7 @@ void Bank::process_transactions(const char *file_name)
 }
 void Bank::print()
 {
-    std::cout << "Account listing for " << bank_name 
+    std::cout << "\nAccount listing for " << bank_name 
               << " " << std::endl;
     
     for (int i = 0; i < num_array; i++)
@@ -101,15 +101,17 @@ void Bank::print()
 }
 int Bank::binary_search(char *target)
 {
+    long long key = atoll(target);
     int left = 0, right = num_array;
     while (left <= right)
     {
         int mid = (left + right) / 2;
         char mid_account[11];
         strcpy(mid_account, account_objects[mid].get_account_number());
+        long long mid_account_no = atoll(mid_account);
         if (strcmp(target, mid_account) == 0)//found
             return mid;
-        else if (strcmp(target, mid_account) < 0)//target is smaller
+        else if (key < mid_account_no)//target is smaller
             right = mid - 1;
         else
             left = mid + 1;
@@ -122,9 +124,8 @@ void Bank::bubble_sort()//sort by account number
     {
         for (int j = 0; j < num_array - i - 1; j++)
         {
-            int first = atoi(account_objects[j].get_account_number());
-            int second = atoi(account_objects[j+1].get_account_number());
-            std::cout << first << " " << second << std::endl;
+            long long first = atoll(account_objects[j].get_account_number());
+            long long second = atoll(account_objects[j+1].get_account_number());
             if (first > second)
             {
                 Account tmp = account_objects[j];
