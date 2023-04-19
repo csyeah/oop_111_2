@@ -1,0 +1,44 @@
+作業繳交方式請參考【公告】2023年 物件導向程式設計作業繳交總則
+並將檔案上傳至 HW05 資料夾內
+
+[HW05 ─ Overloaded operator: 2x2 Matrix]
+
+[作業要求]
+此次作業限定以C++語言撰寫，並且需提供makefile
+依照題目要求寫出 Matrix class，需包含matrix.h 和 matrix.cpp
+並利用我們提供的main.cpp測試，結果應符合Sample output (請參考p.22 - p.24)
+若有自己的main.cpp也可以選擇性附上，名稱也請統一：matrix.h、matrix.cpp、main.cpp
+*************************************************
+《HW#5 driver》
+main.cpp
+(2.47 KiB) 已下載 4 次
+*************************************************
+(I)主要功能 (80%)：
+依照題目要求實作以下項目
+　　1. "Identity matrix" constructor
+　　2. "Array initialization" constructor
+　　3. determinant()
+　operator overloading:
+　　4. [matrix] + [matrix]
+　　5. [matrix] * scalar
+　　6. [matrix] * [matrix]
+　　7.[matrix] == [matrix]
+　　8. [matrix] != [matrix]
+　　9. << [matrix]
+　　10. scalar * [matrix]
+
+(II)Bonus：
+整體 coding style
+實作其他operator，可能有額外加分機會
+[注意事項]
+C++的部分必須完全使用C++的語法，非必要不應混用C語言。
+若有特殊理由需使用到C語言可於readme說明，否則助教會斟酌扣分
+data member不論是否為const，都應利用member initializer的方式來初始化，可參考上課投影片06-class p.11
+記得適時加上const或reference
+繳交期限：5/4 (Thu) 23:59
+
+※對作業有疑問可新增一篇主題發問~
+※你的疑問也可能是其他同學的疑問!
+
+助教e-mail : guomanling2@gmail.com
+回頂端
