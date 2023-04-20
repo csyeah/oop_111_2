@@ -4,9 +4,10 @@
 class Matrix
 {
 private:
-    /* data */
+    int matrix_array[2][2];
 public:
-    Matrix(/* args */);
+    Matrix(void);
+    Matrix(int arr[][2]);
     ~Matrix();
 };
 
