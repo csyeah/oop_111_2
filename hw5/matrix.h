@@ -16,7 +16,7 @@ public:
     bool operator==(Matrix const& new_Matrix) const;
     bool operator!=(Matrix const& new_Matrix) const;
     friend std::ostream & operator<< (std::ostream &o, Matrix const& new_Matrix);
-    Matrix operator*(int in, Matrix const& new_Matrix);
+    friend Matrix operator*(int in, Matrix const& new_Matrix);
 };
 
 

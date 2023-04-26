@@ -50,10 +50,43 @@ Matrix Matrix::operator*(Matrix const& new_Matrix)//matrix * matrix
     return ans_Matrix;
 }
 bool Matrix::operator==(Matrix const& new_Matrix) const
-{}
+{
+    for (int i = 0; i < 2; i++)
+        for (int j = 0; j < 2; j++)
+        {
+            if (matrix_array[i][j] != new_Matrix.matrix_array[i][j])
+                return false;
+        }
+
+    return true;
+}
 bool Matrix::operator!=(Matrix const& new_Matrix) const
-{}
+{
+    for (int i = 0; i < 2; i++)
+        for (int j = 0; j < 2; j++)
+        {
+            if (matrix_array[i][j] != new_Matrix.matrix_array[i][j])
+                return true;
+        }
+
+    return false;
+}
 std::ostream & operator<< (std::ostream &o, Matrix const& new_Matrix)
-{}
+{
+    o <<  "[["
+      << new_Matrix.matrix_array[0][0] << ", "
+      << new_Matrix.matrix_array[0][1] << "], [" 
+      << new_Matrix.matrix_array[1][0] << ", "
+      << new_Matrix.matrix_array[1][0] << "]]";
+}
 Matrix operator*(int in, Matrix const& new_Matrix)
-{}
+{
+    int ans_array[2][2];
+    
+    for (int i = 0; i < 2; i++)//row i
+        for (int j = 0; j < 2; j++)//column j
+            ans_array[i][j] = in * new_Matrix.matrix_array[i][j];
+    
+    Matrix ans_Matrix(ans_array);
+    return ans_Matrix;
+}
