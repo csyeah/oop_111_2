@@ -2,7 +2,7 @@
 #include <cstdbool>
 #include "matrix.h"
 
-Matrix::Matrix(void) : matrix_array{1,0,1,0} //Identity matrix
+Matrix::Matrix(void) : matrix_array{1,0,0,1} //Identity matrix
 {}
 Matrix::Matrix(int arr[2][2]) : matrix_array{{arr[0][0], arr[0][1]}, {arr[1][0], arr[1][1]}} //Array initialization
 {}
@@ -40,6 +40,10 @@ Matrix Matrix::operator*(int in)//integer representing the right operand of the 
 Matrix Matrix::operator*(Matrix const& new_Matrix)//matrix * matrix
 {
     int ans_array[2][2];
+    //set array to zero
+    for (int i = 0; i < 2; i++)
+        for (int j = 0; j < 2; j++)
+            ans_array[i][j] = 0;
     //multipe two matrix
     for (int i = 0; i < 2; i++)
         for (int j = 0; j < 2; j++)
@@ -77,7 +81,9 @@ std::ostream & operator<< (std::ostream &o, Matrix const& new_Matrix)
       << new_Matrix.matrix_array[0][0] << ", "
       << new_Matrix.matrix_array[0][1] << "], [" 
       << new_Matrix.matrix_array[1][0] << ", "
-      << new_Matrix.matrix_array[1][0] << "]]";
+      << new_Matrix.matrix_array[1][1] << "]]";
+
+    return o;
 }
 Matrix operator*(int in, Matrix const& new_Matrix)
 {
