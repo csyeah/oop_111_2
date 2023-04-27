@@ -10,8 +10,8 @@ Matrix::~Matrix() {}
 
 int Matrix::determinant()//The integer determinant of the matrix object (ad - bc)
 {
-    int det = matrix_array[0][0] * matrix_array[1][1];
-    det -= matrix_array[0][1] * matrix_array[1][0];
+    int det = matrix_array[0][0] * matrix_array[1][1]; //ad
+    det -= matrix_array[0][1] * matrix_array[1][0]; //ad - bc 
     return det; 
 }
 
@@ -95,4 +95,28 @@ Matrix operator*(int in, Matrix const& new_Matrix)
     
     Matrix ans_Matrix(ans_array);
     return ans_Matrix;
+}
+//additional
+Matrix Matrix::operator-(Matrix const& new_Matrix)//Subtraction of two class
+{
+    int ans_array[2][2];
+
+    for (int i = 0; i < 2; i++)
+        for (int j = 0; j < 2; j++)
+            ans_array[i][j] = matrix_array[i][j] - new_Matrix.matrix_array[i][j];
+
+    Matrix ans_Matrix(ans_array);
+    return ans_Matrix;
+}
+
+const Matrix& Matrix::operator=(Matrix const& new_Matrix) //assign Matrix
+{
+    if (&new_Matrix == this) //self-assignment
+        return *this;
+
+    for (int i = 0; i < 2; i++)
+        for (int j = 0; j < 2; j++)
+            matrix_array[i][j] = new_Matrix.matrix_array[i][j];
+
+    return *this;
 }

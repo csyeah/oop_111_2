@@ -79,5 +79,17 @@ int main() {
 	else
 		cout << m1 << " and " << m3 << " are equal" << endl;
 	cout << endl;
+
+	//8.test Matrix Subtraction
+	cout << "8. Testing Matrix Subtraction" << endl;
+	cout << m2 << " - " << m3 << " = " << m2 - m3 << endl;
+	//9. test assignment 
+	Matrix assign_test;
+	cout << "9. testing Matrix assignment" << endl;
+	cout << "assign_test = " << assign_test << endl;
+	cout << "m2 = " << m2 << endl; 
+	assign_test = m2;
+	cout << "after assign m2 to assign_test, assign_test = ";
+	cout << assign_test << endl;
 	return 0;
 }
