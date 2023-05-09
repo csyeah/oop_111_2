@@ -37,7 +37,8 @@ OrdinaryCustomer::~OrdinaryCustomer()
 
 PremiumCustomer::PremiumCustomer(const char first_name[], const char last_name[], const char residence[], const char line[]):
     Customer(first_name, last_name, residence), wine_brand(line), num_of_Premium(++count_of_Premium) {}
-
+PremiumCustomer::PremiumCustomer(PremiumCustomer &c):
+    Customer(c), wine_brand(c.wine_brand), num_of_Premium(++count_of_Premium) {}
 PremiumCustomer::~PremiumCustomer()
 {
     std::cout << "destruct PremiumCustomer" << std::endl;
