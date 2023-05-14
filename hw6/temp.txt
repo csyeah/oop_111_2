@@ -1,0 +1,43 @@
+//This is the 2nd
+    //1st
+    if (count_of_Ordinary == 1)
+    {
+        std::cout << "This is the 1st OrdinaryCustomer, ";
+        if (count_of_Customer == 1)
+            std::cout << "and 1st Customer." << std::endl;
+        else if (count_of_Customer == 2)
+            std::cout << "and 2nd Customer." << std::endl;
+        else if (count_of_Customer == 3)
+            std::cout << "and 3rd Customer." << std::endl;
+        else
+            std::cout << "and " << count_of_Customer << "th Customer" << std::endl;
+    }
+    //2nd
+    else if (count_of_Ordinary == 2)
+    {
+        std::cout << "This is the 2nd OrdinaryCustomer, ";
+        if (count_of_Customer == 2)
+            std::cout << "and 2nd OrdinaryCustomer." << std::endl;
+        else if (count_of_Customer == 3)
+            std::cout << "and 3rd Customer." << std::endl;
+        else
+            std::cout << "and " << count_of_Customer << "th Customer" << std::endl;
+    }
+    //3rd
+    else if (count_of_Ordinary == 3)
+    {
+        std::cout << "This is the 3rd OrdinaryCustomer, ";
+        
+        if (count_of_Customer == 3)
+            std::cout << "and 3rd Customer." << std::endl;
+        else
+            std::cout << "and " << count_of_Customer << "th Customer" << std::endl;
+    }
+    //4th
+    else
+    {
+        std::cout << "This is the " << count_of_Ordinary << "th "
+                  << " OrdinaryCustomer, ";
+        std::cout << "and " << count_of_Customer << "th Customer";
+        std::cout << std::endl;
+    }

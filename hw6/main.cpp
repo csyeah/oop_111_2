@@ -13,13 +13,23 @@ int main(void) {
 	
 	// Produce outputs (Write messages for the secretary) - fill in the code here
 	//========================================================//
+	std::cout << std::endl;
+	for (int j = 0; j < 3; j++)
+	{
+		(list->at(j))->christmasPresent();
+		std::cout << std::endl;
+	}
 	
 
 	//========================================================//
 
 	// Release previously allocated memory - fill in the code here
 	//========================================================//
-	
+	for (int j = 0; j < 3; j++)
+	{
+		delete (list->at(j));
+		list->remove(j);
+	}
 	
 	//========================================================//
 	

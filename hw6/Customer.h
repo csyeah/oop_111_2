@@ -35,7 +35,7 @@ public:
     ~OrdinaryCustomer();
     void christmasPresent(void);//beer_brand 
 
-    void print_new();
+    void print_new(); // print serial number
 };
 
 class PremiumCustomer:public Customer
@@ -52,11 +52,12 @@ public:
 
     void christmasPresent(void);//wine_brand
 
-    void print_new();
+    void print_new(); // print serial number
 };
 //initalize the counter
+/*
 int Customer::count_of_Customer = 0;
 int OrdinaryCustomer::count_of_Ordinary = 0;
 int PremiumCustomer::count_of_Premium = 0;
-
+*/
 #endif
