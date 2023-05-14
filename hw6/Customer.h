@@ -3,9 +3,10 @@
 #include <string>
 class Customer
 {
+    
+protected:
     static int count_of_Customer;
     const int num_of_Customer;
-protected:
     const std::string f_name;
     const std::string l_name;
     const std::string town;
@@ -32,8 +33,9 @@ public:
     OrdinaryCustomer(const std::string&, const std::string&, const std::string&, const std::string&);
     OrdinaryCustomer(OrdinaryCustomer &c);//copy from other 
     ~OrdinaryCustomer();
-
     void christmasPresent(void);//beer_brand 
+
+    void print_new();
 };
 
 class PremiumCustomer:public Customer
@@ -41,13 +43,16 @@ class PremiumCustomer:public Customer
     static int count_of_Premium;
     const int num_of_Premium;
 protected:
-    const char *wine_brand;
+    const std::string wine_brand;
+    //const char *wine_brand;
 public:
     PremiumCustomer(const char*, const char*, const char*, const char*);
     PremiumCustomer(PremiumCustomer &c);
     ~PremiumCustomer();
 
     void christmasPresent(void);//wine_brand
+
+    void print_new();
 };
 //initalize the counter
 int Customer::count_of_Customer = 0;
