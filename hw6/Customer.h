@@ -6,6 +6,7 @@ class Customer
     
 protected:
     static int count_of_Customer;
+    static int total_num_of_Customer;
     const int num_of_Customer;
     const std::string f_name;
     const std::string l_name;
@@ -24,6 +25,7 @@ public:
 class OrdinaryCustomer:public Customer
 {
     static int count_of_Ordinary;
+    static int total_num_of_Ordinary;
     const int num_of_Ordinary;
 protected:
     const std::string beer_brand;
@@ -33,14 +35,14 @@ public:
     OrdinaryCustomer(const std::string&, const std::string&, const std::string&, const std::string&);
     OrdinaryCustomer(OrdinaryCustomer &c);//copy from other 
     ~OrdinaryCustomer();
-    void christmasPresent(void);//beer_brand 
 
-    void print_new(); // print serial number
+    void christmasPresent(void);//beer_brand 
 };
 
 class PremiumCustomer:public Customer
 {
     static int count_of_Premium;
+    static int total_num_of_Premium;
     const int num_of_Premium;
 protected:
     const std::string wine_brand;
@@ -51,8 +53,6 @@ public:
     ~PremiumCustomer();
 
     void christmasPresent(void);//wine_brand
-
-    void print_new(); // print serial number
 };
 //initalize the counter
 /*

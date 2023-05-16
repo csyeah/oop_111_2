@@ -1,0 +1,454 @@
+This is the 1st OrdinaryCustomer, and 1st Customer.
+This is the 1st PremiumCustomer, and 2nd Customer.
+This is the 2nd OrdinaryCustomer, and 3rd Customer.
+This is the 3rd OrdinaryCustomer, and 4th Customer.
+This is the 2nd PremiumCustomer, and 5th Customer.
+This is the 4th OrdinaryCustomer, and 6th Customer.
+This is the 5th OrdinaryCustomer, and 7th Customer.
+This is the 3rd PremiumCustomer, and 8th Customer.
+This is the 6th OrdinaryCustomer, and 9th Customer.
+This is the 4th PremiumCustomer, and 10th Customer.
+This is the 5th PremiumCustomer, and 11th Customer.
+This is the 7th OrdinaryCustomer, and 12th Customer.
+This is the 6th PremiumCustomer, and 13th Customer.
+This is the 8th OrdinaryCustomer, and 14th Customer.
+This is the 7th PremiumCustomer, and 15th Customer.
+This is the 8th PremiumCustomer, and 16th Customer.
+This is the 9th PremiumCustomer, and 17th Customer.
+This is the 9th OrdinaryCustomer, and 18th Customer.
+This is the 10th OrdinaryCustomer, and 19th Customer.
+This is the 11th OrdinaryCustomer, and 20th Customer.
+This is the 12th OrdinaryCustomer, and 21st Customer.
+This is the 10th PremiumCustomer, and 22nd Customer.
+
+
+
+
+About-->  Amelia  <--
+Watson Amelia, at San Francisco.
+
+About-->  Ayame  <--
+Nakiri Ayame, at Shimane.
+
+About-->  Flare  <--
+Shiranui Flare, at Gunma.
+
+About-->  Gura  <--
+Gawr Gura, at San Diego.
+
+About-->  Haato  <--
+Akai Haato, at Mie.
+
+About-->  Inanis  <--
+Ninomae Inanis, at Los Angeles.
+
+About-->  Kanata  <--
+Amane Kanata, at Nagano.
+
+About-->  Korone  <--
+Inugami Korone, at Tottori.
+
+About-->  Lamy  <--
+Yukihana Lamy, at Saga.
+
+About-->  Luna  <--
+Himemori Luna, at Osaka.
+
+About-->  Marine  <--
+Houshou Marine, at Shiga.
+
+About-->  Miko  <--
+Sakura Miko, at Okinawa.
+
+About-->  Nene  <--
+Momosuzu Nene, at Gifu.
+
+About-->  Noel  <--
+Shirogane Noel, at Niigata.
+
+About-->  Okayu  <--
+Nekomata Okayu, at Ehime.
+
+About-->  Peko  <--
+Usada Peko, at Tokyo.
+
+About-->  Shion  <--
+Murasaki Shion, at Nara.
+
+About-->  Sora  <--
+Tokino Sora, at Hokkaido.
+
+About-->  Subaru  <--
+Oozora Subaru, at Aichi.
+
+About-->  Suisei  <--
+Hoshimachi Suisei, at Hyogo.
+
+About-->  Towa  <--
+Tokoyami Towa, at Iwate.
+
+About-->  Yagoo  <--
+Tanigou Yagoo, at Takatsuki shi.
+
+
+
+
+------------- DO SOMETHING --------------
+This is the 13th OrdinaryCustomer, and 23rd Customer.
+
+This is the 14th OrdinaryCustomer, and 24th Customer.
+
+Survived 9 PremiumCustomer, and 23 Customer.
+------------- DO SOMETHING --------------
+
+
+
+About-->  Amelia  <--
+Watson Amelia, at San Francisco.
+
+About-->  Ayame  <--
+Nakiri Ayame, at Shimane.
+
+About-->  Flare  <--
+Shiranui Flare, at Gunma.
+
+About-->  Gura  <--
+Gawr Gura, at San Diego.
+
+About-->  Haachama  <--
+Haachama Haachama, at Mie.
+
+About-->  Haato  <--
+Akai Haato, at Mie.
+
+About-->  Inanis  <--
+Ninomae Inanis, at Los Angeles.
+
+About-->  Kanata  <--
+Amane Kanata, at Nagano.
+
+About-->  Korone  <--
+Inugami Korone, at Tottori.
+
+About-->  Lamy  <--
+Yukihana Lamy, at Saga.
+
+About-->  Luna  <--
+Himemori Luna, at Osaka.
+
+About-->  Marine  <--
+Houshou Marine, at Shiga.
+
+About-->  Nene  <--
+Momosuzu Nene, at Gifu.
+
+About-->  Noel  <--
+Shirogane Noel, at Niigata.
+
+About-->  Okayu  <--
+Nekomata Okayu, at Ehime.
+
+About-->  Peko  <--
+Usada Peko, at Tokyo.
+
+About-->  Shion  <--
+Murasaki Shion, at Nara.
+
+About-->  Sora  <--
+Tokino Sora, at Hokkaido.
+
+About-->  Subaru  <--
+Oozora Subaru, at Aichi.
+
+About-->  Suisei  <--
+Hoshimachi Suisei, at Hyogo.
+
+About-->  Towa  <--
+Tokoyami Towa, at Iwate.
+
+About-->  Yagoo  <--
+Tanigou Yagoo, at Takatsuki shi.
+
+
+
+
+------------- DO SOMETHING --------------
+This is the 11th PremiumCustomer, and 25th Customer.
+
+Survived 13 OrdinaryCustomer, and 23 Customer.
+
+This is the 15th OrdinaryCustomer, and 26th Customer.
+
+Calling the copy constructor to copy data from: Akai Haato, at Mie.
+This is the 16th OrdinaryCustomer, and 27th Customer.
+
+Survived 9 PremiumCustomer, and 24 Customer.
+------------- DO SOMETHING --------------
+
+
+
+About-->  Amelia  <--
+Watson Amelia, at San Francisco.
+
+About-->  Ayame  <--
+Nakiri Ayame, at Shimane.
+
+About-->  Flare  <--
+Shiranui Flare, at Gunma.
+
+About-->  Gura  <--
+Gawr Gura, at San Diego.
+
+About-->  Haachama  <--
+Haachama Haachama, at Mie.
+
+About-->  Haato  <--
+Akai Haato, at Mie.
+
+About-->  Inanis  <--
+Ninomae Inanis, at Los Angeles.
+
+About-->  Kanata  <--
+Amane Kanata, at Nagano.
+
+About-->  Korone  <--
+Inugami Korone, at Tottori.
+
+About-->  Lamy  <--
+Yukihana Lamy, at Saga.
+
+About-->  Luna  <--
+Himemori Luna, at Osaka.
+
+About-->  Marine  <--
+Houshou Marine, at Shiga.
+
+About-->  Miko  <--
+Sakura Miko, at Okinawa.
+
+About-->  Nene  <--
+Momosuzu Nene, at Gifu.
+
+About-->  Noel  <--
+Shirogane Noel, at Niigata.
+
+About-->  Okayu  <--
+Nekomata Okayu, at Ehime.
+
+About-->  Peko  <--
+Usada Peko, at Tokyo.
+
+About-->  Shion  <--
+Murasaki Shion, at Nara.
+
+About-->  Sora  <--
+Tokino Sora, at Hokkaido.
+
+About-->  Subaru  <--
+Oozora Subaru, at Aichi.
+
+About-->  Suisei  <--
+Hoshimachi Suisei, at Hyogo.
+
+About-->  Towa  <--
+Tokoyami Towa, at Iwate.
+
+
+
+
+------------- Print Detail --------------
+
+
+
+About-->  Amelia  <--
+Watson Amelia, at San Francisco.
+This is the 4th PremiumCustomer, and 10th Customer.
+Please send one bottle Riesling using premium present wrapper.
+
+About-->  Ayame  <--
+Nakiri Ayame, at Shimane.
+This is the 8th PremiumCustomer, and 16th Customer.
+Please send one bottle Riesling using premium present wrapper.
+
+About-->  Flare  <--
+Shiranui Flare, at Gunma.
+This is the 10th OrdinaryCustomer, and 19th Customer.
+Please send one bottle Asahi Black (Kuronama) using ordinary present wrapper.
+
+About-->  Gura  <--
+Gawr Gura, at San Diego.
+This is the 5th PremiumCustomer, and 11th Customer.
+Please send one bottle Cabernet Sauvignon using premium present wrapper.
+
+About-->  Haachama  <--
+Haachama Haachama, at Mie.
+This is the 13th OrdinaryCustomer, and 23rd Customer.
+Please send one bottle Hitachino Nest Saison Du Japon using ordinary present wrapper.
+
+About-->  Haato  <--
+Akai Haato, at Mie.
+This is the 16th OrdinaryCustomer, and 27th Customer.
+Please send one bottle Hitachino Nest Saison Du Japon using ordinary present wrapper.
+
+About-->  Inanis  <--
+Ninomae Inanis, at Los Angeles.
+This is the 6th OrdinaryCustomer, and 9th Customer.
+Please send one bottle Tokyo Black using ordinary present wrapper.
+
+About-->  Kanata  <--
+Amane Kanata, at Nagano.
+This is the 9th OrdinaryCustomer, and 18th Customer.
+Please send one bottle Hitachino Nest Real Ginger Ale using ordinary present wrapper.
+
+About-->  Korone  <--
+Inugami Korone, at Tottori.
+This is the 7th PremiumCustomer, and 15th Customer.
+Please send one bottle Merlot using premium present wrapper.
+
+About-->  Lamy  <--
+Yukihana Lamy, at Saga.
+This is the 3rd PremiumCustomer, and 8th Customer.
+Please send one bottle Syrah using premium present wrapper.
+
+About-->  Luna  <--
+Himemori Luna, at Osaka.
+This is the 2nd OrdinaryCustomer, and 3rd Customer.
+Please send one bottle Hitachino Nest White Ale using ordinary present wrapper.
+
+About-->  Marine  <--
+Houshou Marine, at Shiga.
+This is the 8th OrdinaryCustomer, and 14th Customer.
+Please send one bottle Sapporo Premium Black Beer using ordinary present wrapper.
+
+About-->  Miko  <--
+Sakura Miko, at Okinawa.
+This is the 11th PremiumCustomer, and 25th Customer.
+Please send one bottle Chardonnay using premium present wrapper.
+
+About-->  Nene  <--
+Momosuzu Nene, at Gifu.
+This is the 7th OrdinaryCustomer, and 12th Customer.
+Please send one bottle Hitachino Nest Red Rice Ale using ordinary present wrapper.
+
+About-->  Noel  <--
+Shirogane Noel, at Niigata.
+This is the 14th OrdinaryCustomer, and 24th Customer.
+Please send one bottle Asahi Black (Kuronama) using ordinary present wrapper.
+
+About-->  Okayu  <--
+Nekomata Okayu, at Ehime.
+This is the 9th PremiumCustomer, and 17th Customer.
+Please send one bottle Pinor Noir using premium present wrapper.
+
+About-->  Peko  <--
+Usada Peko, at Tokyo.
+This is the 1st OrdinaryCustomer, and 1st Customer.
+Please send one bottle Hitachino Nest Espresso Stoutn using ordinary present wrapper.
+
+About-->  Shion  <--
+Murasaki Shion, at Nara.
+This is the 12th OrdinaryCustomer, and 21st Customer.
+Please send one bottle Sapporo Premium Beer using ordinary present wrapper.
+
+About-->  Sora  <--
+Tokino Sora, at Hokkaido.
+This is the 3rd OrdinaryCustomer, and 4th Customer.
+Please send one bottle Asahi Super Dry using ordinary present wrapper.
+
+About-->  Subaru  <--
+Oozora Subaru, at Aichi.
+This is the 4th OrdinaryCustomer, and 6th Customer.
+Please send one bottle Kirin Ichiban using ordinary present wrapper.
+
+About-->  Suisei  <--
+Hoshimachi Suisei, at Hyogo.
+This is the 6th PremiumCustomer, and 13th Customer.
+Please send one bottle Riesling using premium present wrapper.
+
+About-->  Towa  <--
+Tokoyami Towa, at Iwate.
+This is the 2nd PremiumCustomer, and 5th Customer.
+Please send one bottle Sauvignon Blanc using premium present wrapper.
+
+
+
+
+-------------- SEND Gifts ---------------
+Amelia Get Gift ^ ^
+Survived 8 PremiumCustomer, and 23 Customer.
+
+Ayame Get Gift ^ ^
+Survived 7 PremiumCustomer, and 22 Customer.
+
+Flare Get Gift ^ ^
+Survived 14 OrdinaryCustomer, and 21 Customer.
+
+Gura Get Gift ^ ^
+Survived 6 PremiumCustomer, and 20 Customer.
+
+Haachama Get Gift ^ ^
+Survived 13 OrdinaryCustomer, and 19 Customer.
+
+Haato Get Gift ^ ^
+Survived 12 OrdinaryCustomer, and 18 Customer.
+
+Inanis Get Gift ^ ^
+Survived 11 OrdinaryCustomer, and 17 Customer.
+
+Kanata Get Gift ^ ^
+Survived 10 OrdinaryCustomer, and 16 Customer.
+
+Korone Get Gift ^ ^
+Survived 5 PremiumCustomer, and 15 Customer.
+
+Lamy Get Gift ^ ^
+Survived 4 PremiumCustomer, and 14 Customer.
+
+Luna Get Gift ^ ^
+Survived 9 OrdinaryCustomer, and 13 Customer.
+
+Marine Get Gift ^ ^
+Survived 8 OrdinaryCustomer, and 12 Customer.
+
+Miko Get Gift ^ ^
+Survived 3 PremiumCustomer, and 11 Customer.
+
+Nene Get Gift ^ ^
+Survived 7 OrdinaryCustomer, and 10 Customer.
+
+Noel Get Gift ^ ^
+Survived 6 OrdinaryCustomer, and 9 Customer.
+
+Okayu Get Gift ^ ^
+Survived 2 PremiumCustomer, and 8 Customer.
+
+Peko Get Gift ^ ^
+Survived 5 OrdinaryCustomer, and 7 Customer.
+
+Shion Get Gift ^ ^
+Survived 4 OrdinaryCustomer, and 6 Customer.
+
+Sora Get Gift ^ ^
+Survived 3 OrdinaryCustomer, and 5 Customer.
+
+Subaru Get Gift ^ ^
+Survived 2 OrdinaryCustomer, and 4 Customer.
+
+Suisei Get Gift ^ ^
+Survived 1 PremiumCustomer, and 3 Customer.
+
+Towa Get Gift ^ ^
+Survived 0 PremiumCustomer, and 2 Customer.
+
+-------------- SEND Gifts ---------------
+
+
+
+
+
+
+------------- EveryOne Get Gift ~HAPPY HAPPY~ --------------
+
+
+
+----I--M---- ----E--N--D---- ----L--I--N--E----
